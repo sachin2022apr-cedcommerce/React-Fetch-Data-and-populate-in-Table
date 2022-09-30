@@ -1,0 +1,47 @@
+.App {
+  text-align: left;
+}
+
+.home{
+  width: 40%;
+  min-height: 100vh;
+  margin:10% auto;
+}
+.dashboard {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.leftDiv {
+  width: 15%;
+  margin-top: 2%;
+}
+.rightDiv {
+  width: 80%;
+}
+.header{
+  width: 100%;
+  margin: 0;
+
+}
+.headOperation{
+  width: 100%;
+  display: flex;
+  padding: 20px 15px;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+ box-shadow:  0 0 0.3125rem rgba(23, 24, 24, 0.05), 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.15);
+  margin: 1% 0 3%;
+}
+
+.dataGrid {
+  font-weight: 550;
+  font-size: 22px;
+  margin: 1% 0 2%;
+}
+.spin {
+  margin-left: calc(50% - 22px);
+  margin-top: 10%;
+}
